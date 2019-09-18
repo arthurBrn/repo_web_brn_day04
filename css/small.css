@@ -1,0 +1,32 @@
+@media screen and (max-width: 767px) {
+    body {
+        background-color: transparent;
+        display: flex;
+    }
+    header {
+        flex-direction: column;
+        background-color: blue;
+    }
+    body section article {
+        flex-direction: column;
+        margin-top: 20px;
+        width: 100%;
+        height: 200px;
+    }
+    .article1 {}
+    .article2 {
+        background-color: green;
+    }
+    .article3 {
+        background-color: yellow;
+    }
+    .article4 {
+        background-color: lightyellow;
+    }
+    .article5 {
+        background-color: red;
+    }
+    footer {
+        flex-direction: column;
+    }
+}
