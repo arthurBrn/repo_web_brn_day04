@@ -2,31 +2,40 @@
     body {
         background-color: transparent;
         display: flex;
+        flex-direction: column;
     }
     header {
-        flex-direction: column;
+        width: 100%;
         background-color: blue;
+        height: 200px;
     }
     body section article {
-        flex-direction: column;
         margin-top: 20px;
         width: 100%;
         height: 200px;
     }
-    .article1 {}
+    .article1 {
+        width: 100%;
+        background-color: blue;
+    }
     .article2 {
+        width: 100%;
         background-color: green;
     }
     .article3 {
+        width: 100%;
         background-color: yellow;
     }
     .article4 {
+        width: 100%;
         background-color: lightyellow;
     }
     .article5 {
+        width: 100%;
         background-color: red;
     }
     footer {
-        flex-direction: column;
+        width: 100%;
+        height: 200px;
     }
 }

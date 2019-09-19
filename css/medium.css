@@ -1,5 +1,52 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width:1023px) {
     body {
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+    }
+    header {
+        width: 50%;
+        height: 200px;
+        background-color: blue;
+    }
+    .article1 {
+        width: 100%;
+        height: 200px;
+        background-color: green;
+        flex-direction: column;
+    }
+    .container {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        flex-direction: row !important;
+        justify-content: space-around !important;
+    }
+    .container article {
+        height: 200px;
+        margin-top: 25px;
+        width: 49%;
+    }
+    .article2,
+    .article3 {
+        background-color: yellow;
+    }
+    .article4,
+    .article5 {
+        background-color: violet;
+    }
+    .article6,
+    .article7 {
+        background-color: rosybrown;
+    }
+    .article8 {
+        background-color: green;
+        width: 100%;
+        height: 200px;
+    }
+    footer {
+        margin-top: 20px;
         background-color: red;
+        height: 200px;
+        width: 100%;
     }
 }
